@@ -1,0 +1,119 @@
+PATTERN 1
+n = 4;
+for i in range(1,n+1) :
+    for j in range (1,n+1):
+        print("*",end="");
+    print("")
+
+PATTERN 2
+n = 4;
+for i in range(1,n+1) :
+    for j in range (1,n+1):
+        print(j,end="");
+    print("")
+
+PATTERN 3
+n = 4;
+for i in range(1,n+1) :
+    for j in range (1,i+1):
+        print(j,end="");
+    print("")
+
+PATTERN 4
+n = 4;
+for i in range(1,n+1) :
+    for j in range (1,i+1):
+        print("*",end="");
+    print("")
+
+PATTERN 5
+n = 4;
+for i in range(1,n+1) :
+    for j in range (1,n-i+2):
+        print(j,end="");
+    print("")
+
+PATTERN 6
+n=5
+for i in range(1,n+1):
+    for j in range(n-i):
+        print("*", end="")
+    print("")
+
+PATTERN 7
+n = 4;
+for i in range(n,0,-1) :
+    for j in range (i,0,-1):
+        print(j,end="");
+    print("")
+
+PATTERN 8
+n = 4;
+for i in range(1,n) :
+    for j in range (1,i+1):
+        print("*",end="");
+    print("")
+
+PATTERN 9
+n = 4;
+for i in range(1,n) :
+    for j in range (1,i+1):
+        print("*",end="");
+    print("")
+    
+for i in range(1,n) :
+    for j in range (1,n-i):
+        print("*",end="");
+    print("")
+
+PATTERN 10
+n = 4;
+for i in range(1,n) :
+    for j in range (n-i):
+        print(" ",end="");
+    for k in range (2*i-1):
+        print("*",end="")
+    print("")
+
+PATTERN 11
+n = 4;
+for i in range(n,0,-1) :
+    for j in range (n-i):
+        print(" ",end="");
+    for k in range (2*i-1):
+        print("*",end="")
+    print("")
+
+PATTERN 12
+n = 4;
+for i in range(1,n) :
+    for j in range (n-i):
+        print(" ",end="");
+    for k in range (2*i-1):
+        print("*",end="")
+    print("")
+
+for i in range(n,0,-1) :
+    for j in range (n-i):
+        print(" ",end="");
+    for k in range (2*i-1):
+        print("*",end="")
+    print("")
+
+PATTERN 13
+n=5
+m=1
+for i in range(1,n):
+    for j in range(i):
+        print(m,end="")
+        m+=1
+    print()
+
+PATTERN 14
+n=5
+m=1
+for i in range(1,n):
+    for j in range(i):
+        print(i,end="")
+        m+=1
+    print()
